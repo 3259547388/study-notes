@@ -2,7 +2,7 @@
 
 ## 在MySQL的user表记录用户信息
 
-![image-20220420215017840](C:\Users\zhuda\AppData\Roaming\Typora\typora-user-images\image-20220420215017840.png)
+![image-20220420215017840](关于服务器MySQL权限问题.assets/image-20220420215017840.png)
 
 可以用insert的方式插入新用户，但不推荐！！！因为密码显示就不会有加密直接以明文显示，推荐使用create的方法创建新用户，所有新用户都没有如何访问权限！！！
 
